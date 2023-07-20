@@ -75,11 +75,16 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+ 
+}
+#banner-background {
   background-image: url(../images/Group\ 14.png);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .banner-content {
+  
   width: 50%;
 }
 .banner-title {
@@ -142,7 +147,6 @@ main {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 32px;
   font-weight: 700;
 }
 .video-section-description {

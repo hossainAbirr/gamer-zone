@@ -10,19 +10,55 @@
         margin-bottom: 20px;
     }
     nav, .banner-container {
-        padding: 20px;
+        padding: 10px;
     }
     .banner-container {
         flex-direction: column-reverse;
         text-align: center;
-        gap: 70px;
 
     }
     .banner-content {
         width: 100%;
     }
-    
-    
+    main {
+        padding: 0;
+    }
+    .video-section, .play-game-section, .game-section{
+        padding: 10px;
+    }
+    .section-title {
+        font-size: 1.7rem;
+    }
+    .video-container {
+        flex-direction: column;
+    }
+    .play-game-container {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+     .play-game-text {
+        width: auto;
+        text-align: center;
+    }
+    .play-game-img, .play-game2 {
+        width: 80%;
+    }
+    .game-name {
+        font-size: 14px;
+    }
+    .game {
+        width: 100px;
+        gap: 8px;
+    }
+    .footer-link, .social-link, .privacy {
+        flex-wrap: wrap;
+    }
+    .social-link {
+        column-gap: 70px;
+    }
+    .footer-section {
+        padding: 0 50px;
+    }
 }
 
 /* media querie for medium devices  */
