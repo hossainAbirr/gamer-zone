@@ -32,6 +32,9 @@
     .video-container {
         flex-direction: column;
     }
+    .video-caption {
+        text-align: center;
+    }
     .play-game-container {
         flex-direction: column-reverse;
         gap: 30px;
@@ -71,17 +74,35 @@
 /* media querie for medium devices  */
 
 @media screen and (min-width:577px) and (max-width:960px) {
+    nav, nav ul {
+        flex-direction: column;
+    }
+    nav {
+        height: auto;
+        margin-bottom: 20px;  
+    }
+    .logo-container {
+        margin-bottom: 20px;
+    }
+    .banner-container {
+        gap: 20px;
+    }
     .banner-content {
         width: auto;
     }
     main  {
         padding: 0;
     }
+    
     .footer-link, .privacy {
         flex-wrap: wrap;
     }
     .footer-link {
         padding: 0 20px;
+    }
+    .play-icon {
+        width: 100px;
+        height: 100px;
     }
 
 }
